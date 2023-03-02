@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        color: #000000;
+        text-align: center;
+        background-color: #ffffff
+      }
+    </style>
+    <body> 
+       {% if dia %}
+        <H1>Bom dia, {{name}}! </H1>
+        <img src="https://i.pinimg.com/564x/3b/12/3c/3b123c9bb751c26ba6c96986225fa95d.jpg"></P>
+       {% else %}
+        <H1>Boa noite, {{name}}!</H1>
+        <img src="https://i.pinimg.com/564x/be/9a/b4/be9ab444d40290424aa89f5eb2e9e360.jpg">
+       {% endif %}
+    </body>
+    
+</html>
